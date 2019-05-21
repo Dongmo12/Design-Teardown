@@ -1,3 +1,78 @@
 body {
     margin: 0;
 }
+
+.main-navbar {
+    padding: 1em 0;
+    background: #d33a2c;
+    position: relative;
+    min-height: 5.9375rem;
+}
+ 
+.logo{
+    top: 20px;
+    width: 16%;
+    float: left;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    position: relative;
+    background-color: white;
+    display: inline-block;
+}
+.logo img {
+    height: 3.75em;
+}
+ 
+ .container-nav{
+    height: 129px;
+    overflow: hidden;
+ }
+ div {
+    display: block;
+}
+.container-navbar-text{
+    width: 100%;
+    padding: 0 2em;
+    position: relative;
+}
+.logo-and-text{
+    top: -18px;
+    width: 62%;
+    float: left;
+    height: 129px;
+    margin-left: 1%;
+    position: relative;
+    display: inline-block;
+}
+ .all-item{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.list-item{
+    float: left;
+    width: 112px;
+    height: 90px;
+    font-size: 14px;
+    margin-left: 10px;
+    text-align: center;
+    display: inline-block;
+    background-color: #999;
+}
+.search-button{
+    top: 40px;
+    width: 12%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 4px;
+    position: relative;
+    text-align: center;
+    background-color: #ccc;
+    display: inline-block;
+}
+}
