@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+}
+.full-width, .full {
+    width: 100%;
+}
+.darker {
+    background-color: #aaa;
+}
+.darkish {
+    background-color: #e0e0e0;
+}
+.dark {
+    background-color: #ccc;
+}
+.bright {
+    background-color: #ddd;
+}
+.brighter {
+    background-color: #eee;
+}
+.margin-20 {
+    margin: 20px;
+}
+.navbar {
+    padding: 1em 0;
+    min-height: 5.9375rem;
+}
+.flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+.menu, .menu-logo, .menu-button {
+    margin: 0 15px;
+    width: 100%;
+}
+.menu span {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.menu span.main {
+    font-weight: bold;
+}
+.menu span.caption {
+    font-style: italic;
+}
+.intro-row {
+    height: 150px;
+}
+.floating-intro {
+    margin-left: auto;
+    /* margin-right: -150px; */
+    display: block;
+    position: absolute;
+    left: 45%;
+    width: 10%;
+    margin-top: 30px;
+    z-index: 1000;
+    text-align: center;
+    padding: 10px;
+    background-color: #aaa;
+}
+.inverted {
+    background-color: #aaa;
+    color: #fff;
+}
+.toggle-background {
+    width: fit-content;
+    display: block;
+    margin: 30px 15px 0 auto;
+    padding: 10px;
+}
+.article-row {
+    height: 500px;
+}
+.latest-posts {
+    display: grid;
+    grid-gap: 10px;
+    height: 500px;
+    grid-template-columns: repeat(4, 24%);
+}
+.latest-posts .post {
+    margin: 50px 15px 20px 15px;
+    height: 440px;
+}
+.latest-posts .post:first-child {
+    margin-left: 30px;
+}
+.box-shadow-hover {
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.box-shadow-hover:hover {
+    background-color: white;
+    transform: scale(1.2);
+    z-index: 5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cta {
+    grid-column: span 2;
+}
