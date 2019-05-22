@@ -92,6 +92,62 @@ body {
 .latest-posts .post:first-child {
     margin-left: 30px;
 }
+.see-all-latest-articles{
+        text-align: center;
+        padding: 1em 0 5em;
+    
+}
+.coming-up-next{
+    text-align: center;
+    height: 500px;
+    background:#ccc;
+    
+}
+.third-text {
+    font-size: 1.2em;
+    max-width: 55vw;
+    margin: 1em auto 2em;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+    line-height: calc(1.5em + .2vw);
+    word-break: break-word;
+    color:black;
+}
+ 
+.conf-panel {
+    /* text-transform: uppercase; */
+    /* letter-spacing: 2px; */
+    font-size: .8em;
+    font-weight: 700;
+    display: block;
+    color: white;
+    
+}
+a:hover {
+    color: red;
+  }
+a.load-articles-link {
+        text-transform: lowercase;
+        -ms-font-feature-settings: 'smcp' 1,'c2sc' 1;
+        -o-font-feature-settings: 'smcp' 1,'c2sc' 1;
+        -webkit-font-feature-settings: 'smcp' 1,'c2sc' 1;
+        font-feature-settings: 'smcp' 1,'c2sc' 1;
+        letter-spacing: 1px;
+        font-variant: small-caps;
+        text-transform: lowercase;
+        background-position: center 72%;
+        text-transform: uppercase;
+        font-size: .75em;
+     
+        text-decoration: none;
+       
+        border-bottom: 5px solid #d33a2c;
+        letter-spacing: 1px;
+        -webkit-transition: all .1s ease-out;
+        transition: all .1s ease-out;
+        display: inline-block;
+        padding: 1.25em 0 .5em;
+        cursor: pointer;
+}
 .box-shadow-hover {
     -moz-transition: all .3s ease-out;
     -o-transition: all .3s ease-out;
