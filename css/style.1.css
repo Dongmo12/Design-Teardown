@@ -108,11 +108,6 @@ body {
     grid-column: span 2;
     border-radius: 10px;
 }
-.see-all-latest-articles {
-    height: 200px;
-    width: 100%;
-    padding: 0;
-}
 .v-center {
     position: relative;
     top: 50%;
@@ -130,26 +125,31 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+.section-link-container {
+    height: 200px;
+    width: 100%;
+    padding: 0;
+}
 .section-link {
     display: block;
     width: fit-content;
     color: #444;
     border-bottom: #999 5px solid;
 }
-.coming-up-next {
+.coming-up-next2 {
     height: fit-content;
 }
-.coming-up-next > .panel {
+.coming-up-next2 > .panel {
     width: fit-content;
     margin: 50px 0;
 }
-.coming-up-next .caption {
+.coming-up-next2 .caption {
     width: 50%;
     font-size: 1.5em;
     text-align: justify;
     margin-top: 60px;
 }
-.coming-up-next .button {
+.coming-up-next2 .button {
     width: 30%;
     height: 70px;
     margin-top: 60px;
