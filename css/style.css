@@ -93,7 +93,6 @@ a:hover {
 }
 .floating-intro {
     margin-left: auto;
-    /* margin-right: -150px; */
     display: block;
     position: absolute;
     left: 45%;
@@ -315,7 +314,6 @@ a:hover {
 }
 .frame {
     border-radius: 10px;
-    /* background-color: black; */
     display: inline-block;
 }
 .frame img {
