@@ -1,4 +1,4 @@
-# Design-Teardown-Solo
+# Design-Teardown
 In this simple project, we will be breaking apart the website for a popular design magazine (Smashing Magazine). The goal for this exercise is to start training on how to think in terms of visual hierarchy, typography and design principles. The live site can be viewed <a href="https://raw.githack.com/ibrolive/Design-Teardown/develop/index.html">here</a>.
 
 ## Designed by:
